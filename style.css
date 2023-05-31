@@ -1,0 +1,28 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: blue;
+}
+
+/* .textString{
+    padding-right: 40px;
+    text-align: center;
+} */
+
+label {
+    display: inline-block;
+    width: 300px;
+}
+
+
+
+.calcBtn{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration-color: blueviolet;
+}
+
+.calculate{
+ text-align:center;
+}
