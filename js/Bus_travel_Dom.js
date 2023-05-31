@@ -20,7 +20,7 @@ const numReturnTripsDisplay = document.querySelector('#numReturnTrips');
 const costPerReturnTripDisplay = document.querySelector('#costPerReturnTrip');
 
 // create an instance
-const busTravelCalculator = createBusTravelCalculator();
+// const busTravelCalculator = createBusTravelCalculator();
 
 function calculateBusTravel() {
   const startLocation = startLocationSelect.value;
@@ -33,14 +33,14 @@ function calculateBusTravel() {
     }
   }
   
-  busTravelCalculator.setPointsInput(pointsInput);
-  busTravelCalculator.setStartLocationSelect(startLocationSelect);
-  busTravelCalculator.setTravelTimeRadios(travelTimeRadios);
-  busTravelCalculator.setReturnTripInput(returnTripInput);
-  busTravelCalculator.setNumTripsDisplay(numTripsDisplay);
-  busTravelCalculator.setPricePerTripDisplay(pricePerTripDisplay);
-  busTravelCalculator.setNumReturnTripsDisplay(numReturnTripsDisplay);
-  busTravelCalculator.setCostPerReturnTripDisplay(costPerReturnTripDisplay);
+//   busTravelCalculator.setPointsInput(pointsInput);
+//   busTravelCalculator.setStartLocationSelect(startLocationSelect);
+//   busTravelCalculator.setTravelTimeRadios(travelTimeRadios);
+//   busTravelCalculator.setReturnTripInput(returnTripInput);
+//   busTravelCalculator.setNumTripsDisplay(numTripsDisplay);
+//   busTravelCalculator.setPricePerTripDisplay(pricePerTripDisplay);
+//   busTravelCalculator.setNumReturnTripsDisplay(numReturnTripsDisplay);
+//   busTravelCalculator.setCostPerReturnTripDisplay(costPerReturnTripDisplay);
 
   const points = parseInt(pointsInput.value);
   const returnTripCount = parseInt(returnTripInput.value);
@@ -102,6 +102,6 @@ function calculateBusTravel() {
 }
 
 const calculateBtn = document.querySelector('.calcBtn');
-calculateBtn.addEventListener('click', busTravelCalculator.calculateBusTravel);
+calculateBtn.addEventListener('click', calculateBusTravel);
 
 
